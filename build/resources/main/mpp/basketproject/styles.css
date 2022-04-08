@@ -1,0 +1,12 @@
+.background{
+    -fx-opacity: 0.5;
+    -fx-z-index: -1;
+}
+
+.table {
+    -fx-opacity: 0.8;
+}
+.login_background{
+
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgba(150,61,5,1), rgba(255,153,0,1));
+}

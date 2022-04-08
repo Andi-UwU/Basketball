@@ -1,0 +1,1293 @@
+21 Mar 2022 18:19:01,533 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 18:19:01,544 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 18:19:01,547 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 18:19:01,549 TRACE mpp.basketproject.repository.db.UserDBRepository 112 getAll - Enter
+21 Mar 2022 18:19:01,550 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 18:19:01,550 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 18:19:01,550 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 18:19:01,551 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 18:19:01,551 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 18:19:01,955 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 18:19:01,960 TRACE mpp.basketproject.repository.db.UserDBRepository 132 getAll - Exit
+21 Mar 2022 18:19:01,961 TRACE mpp.basketproject.repository.db.UserDBRepository 32 add - Enter
+21 Mar 2022 18:19:01,962 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 18:19:01,962 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 18:19:01,965 ERROR mpp.basketproject.repository.db.UserDBRepository 41 add - SQL Exception: [SQLITE_CONSTRAINT_UNIQUE]  A UNIQUE constraint failed (UNIQUE constraint failed: users.username)
+21 Mar 2022 18:21:09,189 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 18:21:09,194 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 18:21:09,195 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 18:21:09,196 TRACE mpp.basketproject.repository.db.UserDBRepository 112 getAll - Enter
+21 Mar 2022 18:21:09,197 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 18:21:09,197 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 18:21:09,197 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 18:21:09,197 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 18:21:09,198 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 18:21:09,362 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 18:21:09,366 TRACE mpp.basketproject.repository.db.UserDBRepository 132 getAll - Exit
+21 Mar 2022 18:21:09,367 TRACE mpp.basketproject.repository.db.UserDBRepository 32 add - Enter
+21 Mar 2022 18:21:09,367 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 18:21:09,368 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 18:21:09,370 ERROR mpp.basketproject.repository.db.UserDBRepository 41 add - SQL Exception: [SQLITE_CONSTRAINT_UNIQUE]  A UNIQUE constraint failed (UNIQUE constraint failed: users.username)
+21 Mar 2022 18:22:15,774 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 18:22:15,779 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 18:22:15,781 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 18:22:15,782 TRACE mpp.basketproject.repository.db.UserDBRepository 112 getAll - Enter
+21 Mar 2022 18:22:15,783 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 18:22:15,783 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 18:22:15,783 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 18:22:15,784 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 18:22:15,784 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 18:22:15,964 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 18:22:15,967 TRACE mpp.basketproject.repository.db.UserDBRepository 132 getAll - Exit
+21 Mar 2022 18:22:15,968 TRACE mpp.basketproject.repository.db.UserDBRepository 32 add - Enter
+21 Mar 2022 18:22:15,968 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 18:22:15,968 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 18:22:15,970 ERROR mpp.basketproject.repository.db.UserDBRepository 41 add - SQL Exception: [SQLITE_CONSTRAINT_UNIQUE]  A UNIQUE constraint failed (UNIQUE constraint failed: users.username)
+21 Mar 2022 18:23:25,317 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 18:23:25,322 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 18:23:25,324 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 18:23:25,325 TRACE mpp.basketproject.repository.db.UserDBRepository 112 getAll - Enter
+21 Mar 2022 18:23:25,326 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 18:23:25,327 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 18:23:25,327 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 18:23:25,327 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 18:23:25,328 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 18:23:25,520 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 18:23:25,524 TRACE mpp.basketproject.repository.db.UserDBRepository 132 getAll - Exit
+21 Mar 2022 18:23:25,525 TRACE mpp.basketproject.repository.db.UserDBRepository 112 getAll - Enter
+21 Mar 2022 18:23:25,526 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 18:23:25,526 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 18:23:25,526 TRACE mpp.basketproject.repository.db.UserDBRepository 132 getAll - Exit
+21 Mar 2022 18:23:25,527 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+21 Mar 2022 18:23:25,527 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 18:23:25,527 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 18:23:25,527 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 18:23:25,528 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 18:23:25,528 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 18:23:25,529 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 18:23:25,544 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+21 Mar 2022 18:23:25,556 TRACE mpp.basketproject.repository.db.TicketDBRepository 153 getAll - Enter
+21 Mar 2022 18:23:25,557 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 18:23:25,557 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 18:23:25,557 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 18:23:25,558 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 18:23:25,558 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 18:23:25,559 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 18:23:25,562 TRACE mpp.basketproject.repository.db.TicketDBRepository 199 getAll - Exit
+21 Mar 2022 18:23:40,054 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 18:23:40,058 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 18:23:40,060 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 18:23:40,062 TRACE mpp.basketproject.repository.db.UserDBRepository 112 getAll - Enter
+21 Mar 2022 18:23:40,062 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 18:23:40,062 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 18:23:40,062 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 18:23:40,063 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 18:23:40,063 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 18:23:40,241 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 18:23:40,244 TRACE mpp.basketproject.repository.db.UserDBRepository 132 getAll - Exit
+21 Mar 2022 18:23:40,245 TRACE mpp.basketproject.repository.db.UserDBRepository 112 getAll - Enter
+21 Mar 2022 18:23:40,245 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 18:23:40,246 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 18:23:40,246 TRACE mpp.basketproject.repository.db.UserDBRepository 132 getAll - Exit
+21 Mar 2022 18:23:40,247 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+21 Mar 2022 18:23:40,247 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 18:23:40,247 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 18:23:40,247 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 18:23:40,248 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 18:23:40,248 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 18:23:40,249 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 18:23:40,263 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+21 Mar 2022 18:23:40,273 TRACE mpp.basketproject.repository.db.TicketDBRepository 153 getAll - Enter
+21 Mar 2022 18:23:40,273 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 18:23:40,273 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 18:23:40,274 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 18:23:40,274 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 18:23:40,274 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 18:23:40,275 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 18:23:40,277 TRACE mpp.basketproject.repository.db.TicketDBRepository 199 getAll - Exit
+21 Mar 2022 19:51:21,696 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 19:51:21,701 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 19:51:21,703 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 19:55:00,818 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 19:55:00,824 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 19:55:00,826 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 20:07:29,478 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 20:07:29,484 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 20:07:29,487 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 20:07:34,066 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 20:07:34,067 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 20:07:34,067 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 20:07:34,067 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 20:07:34,067 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 20:07:34,068 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 20:07:34,443 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 20:07:34,448 ERROR mpp.basketproject.repository.db.UserDBRepository 153 findByUsername - SQL Exception: ResultSet closed
+21 Mar 2022 20:07:45,265 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 20:07:45,265 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 20:07:45,266 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 20:07:45,266 ERROR mpp.basketproject.repository.db.UserDBRepository 153 findByUsername - SQL Exception: ResultSet closed
+21 Mar 2022 20:08:15,451 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 20:08:15,451 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 20:08:15,452 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 20:08:15,453 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+21 Mar 2022 21:40:32,535 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:40:32,542 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:40:32,545 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:40:38,477 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 21:40:38,477 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 21:40:38,477 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 21:40:38,478 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 21:40:38,478 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 21:40:38,478 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 21:40:38,789 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 21:40:38,792 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+21 Mar 2022 21:41:01,379 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:41:01,384 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:41:01,387 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:41:05,686 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 21:41:05,686 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 21:41:05,687 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 21:41:05,687 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 21:41:05,688 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 21:41:05,688 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 21:41:05,862 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 21:41:05,865 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+21 Mar 2022 21:47:06,381 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:47:06,387 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:47:06,390 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:47:24,422 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:47:24,427 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:47:24,429 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:47:32,782 TRACE mpp.basketproject.repository.db.UserDBRepository 32 add - Enter
+21 Mar 2022 21:47:32,782 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 21:47:32,782 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 21:47:32,783 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 21:47:32,783 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 21:47:32,784 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 21:47:32,966 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 21:47:32,973 INFO  mpp.basketproject.repository.db.UserDBRepository 39 add - 1 rows affected
+21 Mar 2022 21:47:32,974 TRACE mpp.basketproject.repository.db.UserDBRepository 45 add - Exit
+21 Mar 2022 21:47:37,298 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 21:47:37,298 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 21:47:37,298 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 21:47:37,299 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+21 Mar 2022 21:47:45,086 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 21:47:45,087 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 21:47:45,087 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 21:47:45,089 ERROR mpp.basketproject.repository.db.UserDBRepository 153 findByUsername - SQL Exception: ResultSet closed
+21 Mar 2022 21:50:16,990 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:50:16,996 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:50:17,000 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:50:23,733 TRACE mpp.basketproject.repository.db.UserDBRepository 32 add - Enter
+21 Mar 2022 21:50:23,734 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 21:50:23,734 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 21:50:23,734 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 21:50:23,734 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 21:50:23,735 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 21:50:23,906 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 21:50:23,911 ERROR mpp.basketproject.repository.db.UserDBRepository 41 add - SQL Exception: [SQLITE_CONSTRAINT_UNIQUE]  A UNIQUE constraint failed (UNIQUE constraint failed: users.username)
+21 Mar 2022 21:51:21,976 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:51:21,981 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:51:21,983 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:51:26,479 TRACE mpp.basketproject.repository.db.UserDBRepository 32 add - Enter
+21 Mar 2022 21:51:26,479 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 21:51:26,479 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 21:51:26,480 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 21:51:26,480 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 21:51:26,480 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 21:51:26,641 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 21:51:26,646 ERROR mpp.basketproject.repository.db.UserDBRepository 41 add - SQL Exception: [SQLITE_CONSTRAINT_UNIQUE]  A UNIQUE constraint failed (UNIQUE constraint failed: users.username)
+21 Mar 2022 21:51:35,007 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 21:51:35,008 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 21:51:35,008 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 21:51:35,009 ERROR mpp.basketproject.repository.db.UserDBRepository 153 findByUsername - SQL Exception: ResultSet closed
+21 Mar 2022 21:51:38,509 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 21:51:38,509 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 21:51:38,509 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 21:51:38,510 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+21 Mar 2022 21:51:43,216 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 21:51:43,216 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 21:51:43,217 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 21:51:43,217 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+21 Mar 2022 21:51:44,963 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 21:51:44,964 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 21:51:44,964 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 21:51:44,965 ERROR mpp.basketproject.repository.db.UserDBRepository 153 findByUsername - SQL Exception: ResultSet closed
+21 Mar 2022 21:51:47,265 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 21:51:47,266 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 21:51:47,266 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 21:51:47,266 ERROR mpp.basketproject.repository.db.UserDBRepository 153 findByUsername - SQL Exception: ResultSet closed
+21 Mar 2022 21:51:51,929 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 21:51:51,930 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 21:51:51,930 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 21:51:51,931 ERROR mpp.basketproject.repository.db.UserDBRepository 153 findByUsername - SQL Exception: ResultSet closed
+21 Mar 2022 21:53:11,492 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:53:11,498 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 21:53:11,500 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 22:52:28,140 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 22:52:28,146 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 22:52:28,149 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 22:52:33,662 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 22:52:33,663 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 22:52:33,664 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 22:52:33,664 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 22:52:33,665 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 22:52:33,665 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 22:52:34,029 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 22:52:34,035 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+21 Mar 2022 22:52:34,182 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+21 Mar 2022 22:52:34,183 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 22:52:34,183 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 22:52:34,183 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 22:52:34,183 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 22:52:34,184 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 22:52:34,185 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 22:52:34,199 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+21 Mar 2022 22:56:58,124 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 22:56:58,130 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 22:56:58,133 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 22:57:03,204 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 22:57:03,204 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 22:57:03,204 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 22:57:03,205 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 22:57:03,205 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 22:57:03,206 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 22:57:03,384 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 22:57:03,387 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+21 Mar 2022 22:57:03,546 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+21 Mar 2022 22:57:03,546 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 22:57:03,546 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 22:57:03,546 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 22:57:03,547 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 22:57:03,548 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 22:57:03,549 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 22:57:03,561 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+21 Mar 2022 22:57:46,802 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 22:57:46,807 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 22:57:46,810 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 22:57:51,425 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 22:57:51,426 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 22:57:51,426 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 22:57:51,427 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 22:57:51,427 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 22:57:51,427 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 22:57:51,585 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 22:57:51,592 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+21 Mar 2022 22:57:51,763 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+21 Mar 2022 22:57:51,763 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 22:57:51,764 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 22:57:51,764 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 22:57:51,765 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 22:57:51,765 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 22:57:51,768 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 22:57:51,782 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+21 Mar 2022 23:06:56,809 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 23:06:56,823 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 23:06:56,826 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 23:07:01,589 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 23:07:01,590 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 23:07:01,590 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 23:07:01,590 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 23:07:01,591 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 23:07:01,591 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 23:07:01,784 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 23:07:01,788 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+21 Mar 2022 23:07:02,282 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+21 Mar 2022 23:07:02,283 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 23:07:02,283 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 23:07:02,283 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 23:07:02,284 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 23:07:02,284 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 23:07:02,286 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 23:07:02,314 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+21 Mar 2022 23:11:33,303 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 23:11:33,311 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 23:11:33,315 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 23:11:37,093 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 23:11:37,093 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 23:11:37,094 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 23:11:37,094 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 23:11:37,095 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 23:11:37,096 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 23:11:37,267 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 23:11:37,270 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+21 Mar 2022 23:35:27,254 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 23:35:27,261 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 23:35:27,264 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 23:35:32,179 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 23:35:32,180 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 23:35:32,180 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 23:35:32,180 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 23:35:32,181 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 23:35:32,181 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 23:35:32,571 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 23:35:32,574 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+21 Mar 2022 23:35:32,984 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+21 Mar 2022 23:35:32,984 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 23:35:32,985 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 23:35:32,985 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 23:35:32,985 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 23:35:32,986 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 23:35:32,987 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 23:35:33,007 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+21 Mar 2022 23:36:19,053 TRACE mpp.basketproject.repository.db.MatchDBRepository 33 add - Enter
+21 Mar 2022 23:36:19,054 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 23:36:19,054 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 23:36:19,061 INFO  mpp.basketproject.repository.db.MatchDBRepository 46 add - 1 rows affected
+21 Mar 2022 23:36:19,061 TRACE mpp.basketproject.repository.db.MatchDBRepository 52 add - Exit
+21 Mar 2022 23:36:19,061 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+21 Mar 2022 23:36:19,061 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 23:36:19,062 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 23:36:19,062 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+21 Mar 2022 23:37:00,781 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 23:37:00,787 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 23:37:00,788 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 23:37:05,662 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 23:37:05,662 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 23:37:05,663 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 23:37:05,663 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 23:37:05,663 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 23:37:05,664 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 23:37:05,833 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 23:37:05,837 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+21 Mar 2022 23:37:06,206 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+21 Mar 2022 23:37:06,207 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 23:37:06,207 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 23:37:06,207 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 23:37:06,208 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 23:37:06,208 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 23:37:06,210 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 23:37:06,229 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+21 Mar 2022 23:41:34,524 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 23:41:34,532 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 23:41:34,534 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+21 Mar 2022 23:41:38,141 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+21 Mar 2022 23:41:38,142 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 23:41:38,142 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 23:41:38,143 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 23:41:38,143 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 23:41:38,144 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 23:41:38,337 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 23:41:38,345 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+21 Mar 2022 23:41:38,871 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+21 Mar 2022 23:41:38,872 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+21 Mar 2022 23:41:38,872 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+21 Mar 2022 23:41:38,873 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+21 Mar 2022 23:41:38,873 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+21 Mar 2022 23:41:38,874 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+21 Mar 2022 23:41:38,875 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+21 Mar 2022 23:41:38,896 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:08:24,625 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:08:24,631 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:08:24,633 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:08:29,482 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+22 Mar 2022 01:08:29,482 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:08:29,483 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:08:29,483 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:08:29,483 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:08:29,484 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:08:29,845 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:08:29,849 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+22 Mar 2022 01:08:30,224 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:08:30,224 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:08:30,225 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:08:30,225 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:08:30,226 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:08:30,226 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:08:30,228 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:08:30,248 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:09:40,920 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:09:40,927 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:09:40,930 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:09:45,490 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+22 Mar 2022 01:09:45,490 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:09:45,490 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:09:45,491 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:09:45,491 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:09:45,491 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:09:45,671 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:09:45,676 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+22 Mar 2022 01:09:46,058 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:09:46,058 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:09:46,058 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:09:46,059 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:09:46,059 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:09:46,059 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:09:46,060 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:09:46,074 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:11:58,427 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:11:58,433 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:11:58,435 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:12:03,779 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+22 Mar 2022 01:12:03,779 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:12:03,779 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:12:03,779 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:12:03,780 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:12:03,780 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:12:03,968 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:12:03,973 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+22 Mar 2022 01:12:04,340 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:12:04,340 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:12:04,341 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:12:04,341 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:12:04,341 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:12:04,341 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:12:04,343 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:12:04,355 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:12:45,216 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:12:45,221 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:12:45,224 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:12:47,560 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+22 Mar 2022 01:12:47,561 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:12:47,561 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:12:47,561 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:12:47,562 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:12:47,562 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:12:47,727 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:12:47,731 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+22 Mar 2022 01:12:48,107 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:12:48,107 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:12:48,108 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:12:48,108 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:12:48,108 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:12:48,108 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:12:48,110 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:12:48,122 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:15:29,215 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:15:29,221 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:15:29,223 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:15:32,107 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+22 Mar 2022 01:15:32,108 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:15:32,108 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:15:32,108 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:15:32,109 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:15:32,109 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:15:32,279 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:15:32,283 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+22 Mar 2022 01:15:32,699 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:15:32,699 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:15:32,700 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:15:32,700 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:15:32,701 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:15:32,701 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:15:32,703 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:15:32,723 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:21:57,383 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:21:57,390 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:21:57,393 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:22:01,848 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+22 Mar 2022 01:22:01,848 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:22:01,849 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:22:01,849 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:22:01,849 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:22:01,850 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:22:02,027 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:22:02,031 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+22 Mar 2022 01:22:02,405 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:22:02,406 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:22:02,406 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:22:02,407 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:22:02,407 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:22:02,408 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:22:02,409 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:22:02,426 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:22:16,144 TRACE mpp.basketproject.repository.db.MatchDBRepository 100 find - Enter
+22 Mar 2022 01:22:16,144 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:22:16,144 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:22:16,145 TRACE mpp.basketproject.repository.db.MatchDBRepository 125 find - Exit
+22 Mar 2022 01:22:16,146 TRACE mpp.basketproject.repository.db.UserDBRepository 87 find - Enter
+22 Mar 2022 01:22:16,146 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:22:16,146 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:22:16,147 TRACE mpp.basketproject.repository.db.UserDBRepository 106 find - Exit
+22 Mar 2022 01:22:16,148 TRACE mpp.basketproject.repository.db.MatchDBRepository 75 update - Enter
+22 Mar 2022 01:22:16,148 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:22:16,148 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:22:16,154 INFO  mpp.basketproject.repository.db.MatchDBRepository 89 update - 1 rows affected
+22 Mar 2022 01:22:16,154 TRACE mpp.basketproject.repository.db.MatchDBRepository 95 update - Exit
+22 Mar 2022 01:22:16,154 TRACE mpp.basketproject.repository.db.TicketDBRepository 37 add - Enter
+22 Mar 2022 01:22:16,155 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:22:16,155 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:22:16,155 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:22:16,155 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:22:16,155 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:22:16,157 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:22:16,162 INFO  mpp.basketproject.repository.db.TicketDBRepository 49 add - 1 rows affected
+22 Mar 2022 01:22:16,162 TRACE mpp.basketproject.repository.db.TicketDBRepository 55 add - Exit
+22 Mar 2022 01:22:16,162 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:22:16,162 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:22:16,163 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:22:16,164 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:22:22,630 TRACE mpp.basketproject.repository.db.MatchDBRepository 100 find - Enter
+22 Mar 2022 01:22:22,631 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:22:22,631 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:22:22,632 TRACE mpp.basketproject.repository.db.MatchDBRepository 125 find - Exit
+22 Mar 2022 01:22:22,632 TRACE mpp.basketproject.repository.db.UserDBRepository 87 find - Enter
+22 Mar 2022 01:22:22,632 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:22:22,632 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:22:22,633 TRACE mpp.basketproject.repository.db.UserDBRepository 106 find - Exit
+22 Mar 2022 01:23:44,474 TRACE mpp.basketproject.repository.db.MatchDBRepository 100 find - Enter
+22 Mar 2022 01:23:44,474 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:23:44,475 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:23:44,475 TRACE mpp.basketproject.repository.db.MatchDBRepository 125 find - Exit
+22 Mar 2022 01:23:44,476 TRACE mpp.basketproject.repository.db.UserDBRepository 87 find - Enter
+22 Mar 2022 01:23:44,476 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:23:44,476 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:23:44,477 TRACE mpp.basketproject.repository.db.UserDBRepository 106 find - Exit
+22 Mar 2022 01:23:44,477 TRACE mpp.basketproject.repository.db.MatchDBRepository 75 update - Enter
+22 Mar 2022 01:23:44,477 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:23:44,477 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:23:44,482 INFO  mpp.basketproject.repository.db.MatchDBRepository 89 update - 1 rows affected
+22 Mar 2022 01:23:44,482 TRACE mpp.basketproject.repository.db.MatchDBRepository 95 update - Exit
+22 Mar 2022 01:23:44,483 TRACE mpp.basketproject.repository.db.TicketDBRepository 37 add - Enter
+22 Mar 2022 01:23:44,483 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:23:44,483 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:23:44,487 INFO  mpp.basketproject.repository.db.TicketDBRepository 49 add - 1 rows affected
+22 Mar 2022 01:23:44,488 TRACE mpp.basketproject.repository.db.TicketDBRepository 55 add - Exit
+22 Mar 2022 01:23:44,488 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:23:44,488 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:23:44,488 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:23:44,489 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:24:13,089 TRACE mpp.basketproject.repository.db.MatchDBRepository 33 add - Enter
+22 Mar 2022 01:24:13,090 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:24:13,090 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:24:13,096 INFO  mpp.basketproject.repository.db.MatchDBRepository 46 add - 1 rows affected
+22 Mar 2022 01:24:13,097 TRACE mpp.basketproject.repository.db.MatchDBRepository 52 add - Exit
+22 Mar 2022 01:24:13,097 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:24:13,097 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:24:13,097 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:24:13,098 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:24:16,378 TRACE mpp.basketproject.repository.db.MatchDBRepository 100 find - Enter
+22 Mar 2022 01:24:16,378 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:24:16,378 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:24:16,379 TRACE mpp.basketproject.repository.db.MatchDBRepository 125 find - Exit
+22 Mar 2022 01:24:16,379 TRACE mpp.basketproject.repository.db.UserDBRepository 87 find - Enter
+22 Mar 2022 01:24:16,380 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:24:16,380 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:24:16,380 TRACE mpp.basketproject.repository.db.UserDBRepository 106 find - Exit
+22 Mar 2022 01:24:16,381 TRACE mpp.basketproject.repository.db.MatchDBRepository 75 update - Enter
+22 Mar 2022 01:24:16,381 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:24:16,381 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:24:16,386 INFO  mpp.basketproject.repository.db.MatchDBRepository 89 update - 1 rows affected
+22 Mar 2022 01:24:16,386 TRACE mpp.basketproject.repository.db.MatchDBRepository 95 update - Exit
+22 Mar 2022 01:24:16,387 TRACE mpp.basketproject.repository.db.TicketDBRepository 37 add - Enter
+22 Mar 2022 01:24:16,387 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:24:16,387 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:24:16,391 INFO  mpp.basketproject.repository.db.TicketDBRepository 49 add - 1 rows affected
+22 Mar 2022 01:24:16,392 TRACE mpp.basketproject.repository.db.TicketDBRepository 55 add - Exit
+22 Mar 2022 01:24:16,392 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:24:16,392 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:24:16,392 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:24:16,393 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:24:25,423 TRACE mpp.basketproject.repository.db.MatchDBRepository 100 find - Enter
+22 Mar 2022 01:24:25,423 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:24:25,424 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:24:25,424 TRACE mpp.basketproject.repository.db.MatchDBRepository 125 find - Exit
+22 Mar 2022 01:24:25,425 TRACE mpp.basketproject.repository.db.UserDBRepository 87 find - Enter
+22 Mar 2022 01:24:25,425 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:24:25,425 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:24:25,426 TRACE mpp.basketproject.repository.db.UserDBRepository 106 find - Exit
+22 Mar 2022 01:24:34,006 TRACE mpp.basketproject.repository.db.MatchDBRepository 100 find - Enter
+22 Mar 2022 01:24:34,006 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:24:34,006 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:24:34,007 TRACE mpp.basketproject.repository.db.MatchDBRepository 125 find - Exit
+22 Mar 2022 01:24:34,008 TRACE mpp.basketproject.repository.db.UserDBRepository 87 find - Enter
+22 Mar 2022 01:24:34,008 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:24:34,009 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:24:34,009 TRACE mpp.basketproject.repository.db.UserDBRepository 106 find - Exit
+22 Mar 2022 01:39:49,223 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:39:49,229 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:39:49,231 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:39:53,329 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+22 Mar 2022 01:39:53,329 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:39:53,330 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:39:53,330 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:39:53,331 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:39:53,331 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:39:53,526 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:39:53,530 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+22 Mar 2022 01:39:53,977 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:39:53,978 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:39:53,978 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:39:53,978 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:39:53,979 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:39:53,979 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:39:53,980 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:39:53,997 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:39:55,764 TRACE mpp.basketproject.repository.db.MatchDBRepository 163 getAllOrderedByAvailableSeats - Enter
+22 Mar 2022 01:39:55,764 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:39:55,764 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:39:55,767 ERROR mpp.basketproject.repository.db.MatchDBRepository 185 getAllOrderedByAvailableSeats - SQL Exception: [SQLITE_ERROR] SQL error or missing database (no such column: available_seats)
+22 Mar 2022 01:40:32,032 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:40:32,038 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:40:32,041 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:40:35,202 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+22 Mar 2022 01:40:35,203 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:40:35,203 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:40:35,203 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:40:35,204 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:40:35,204 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:40:35,378 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:40:35,381 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+22 Mar 2022 01:40:35,824 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:40:35,824 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:40:35,824 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:40:35,824 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:40:35,825 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:40:35,825 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:40:35,826 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:40:35,838 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:40:37,297 TRACE mpp.basketproject.repository.db.MatchDBRepository 163 getAllOrderedByAvailableSeats - Enter
+22 Mar 2022 01:40:37,298 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:40:37,298 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:40:37,299 TRACE mpp.basketproject.repository.db.MatchDBRepository 189 getAllOrderedByAvailableSeats - Exit
+22 Mar 2022 01:40:38,067 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:40:38,067 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:40:38,068 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:40:38,069 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:40:38,653 TRACE mpp.basketproject.repository.db.MatchDBRepository 163 getAllOrderedByAvailableSeats - Enter
+22 Mar 2022 01:40:38,654 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:40:38,654 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:40:38,655 TRACE mpp.basketproject.repository.db.MatchDBRepository 189 getAllOrderedByAvailableSeats - Exit
+22 Mar 2022 01:40:39,556 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:40:39,556 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:40:39,556 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:40:39,558 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:40:41,225 TRACE mpp.basketproject.repository.db.MatchDBRepository 163 getAllOrderedByAvailableSeats - Enter
+22 Mar 2022 01:40:41,226 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:40:41,226 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:40:41,227 TRACE mpp.basketproject.repository.db.MatchDBRepository 189 getAllOrderedByAvailableSeats - Exit
+22 Mar 2022 01:40:41,944 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:40:41,944 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:40:41,944 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:40:41,945 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:40:42,428 TRACE mpp.basketproject.repository.db.MatchDBRepository 163 getAllOrderedByAvailableSeats - Enter
+22 Mar 2022 01:40:42,428 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:40:42,428 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:40:42,429 TRACE mpp.basketproject.repository.db.MatchDBRepository 189 getAllOrderedByAvailableSeats - Exit
+22 Mar 2022 01:40:42,808 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:40:42,808 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:40:42,809 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:40:42,810 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:40:43,224 TRACE mpp.basketproject.repository.db.MatchDBRepository 163 getAllOrderedByAvailableSeats - Enter
+22 Mar 2022 01:40:43,224 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:40:43,224 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:40:43,225 TRACE mpp.basketproject.repository.db.MatchDBRepository 189 getAllOrderedByAvailableSeats - Exit
+22 Mar 2022 01:40:44,673 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:40:44,674 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:40:44,674 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:40:44,675 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:41:10,536 TRACE mpp.basketproject.repository.db.MatchDBRepository 33 add - Enter
+22 Mar 2022 01:41:10,537 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:41:10,537 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:41:10,542 INFO  mpp.basketproject.repository.db.MatchDBRepository 46 add - 1 rows affected
+22 Mar 2022 01:41:10,542 TRACE mpp.basketproject.repository.db.MatchDBRepository 52 add - Exit
+22 Mar 2022 01:41:10,542 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:41:10,543 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:41:10,543 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:41:10,544 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:41:12,827 TRACE mpp.basketproject.repository.db.MatchDBRepository 163 getAllOrderedByAvailableSeats - Enter
+22 Mar 2022 01:41:12,828 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:41:12,828 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:41:12,829 TRACE mpp.basketproject.repository.db.MatchDBRepository 189 getAllOrderedByAvailableSeats - Exit
+22 Mar 2022 01:41:13,819 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:41:13,819 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:41:13,819 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:41:13,820 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:41:22,223 TRACE mpp.basketproject.repository.db.MatchDBRepository 163 getAllOrderedByAvailableSeats - Enter
+22 Mar 2022 01:41:22,223 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:41:22,224 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:41:22,225 TRACE mpp.basketproject.repository.db.MatchDBRepository 189 getAllOrderedByAvailableSeats - Exit
+22 Mar 2022 01:41:32,456 TRACE mpp.basketproject.repository.db.MatchDBRepository 100 find - Enter
+22 Mar 2022 01:41:32,456 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:41:32,456 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:41:32,457 TRACE mpp.basketproject.repository.db.MatchDBRepository 125 find - Exit
+22 Mar 2022 01:41:32,457 TRACE mpp.basketproject.repository.db.UserDBRepository 87 find - Enter
+22 Mar 2022 01:41:32,457 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:41:32,457 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:41:32,458 TRACE mpp.basketproject.repository.db.UserDBRepository 106 find - Exit
+22 Mar 2022 01:41:32,459 TRACE mpp.basketproject.repository.db.MatchDBRepository 75 update - Enter
+22 Mar 2022 01:41:32,459 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:41:32,459 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:41:32,465 INFO  mpp.basketproject.repository.db.MatchDBRepository 89 update - 1 rows affected
+22 Mar 2022 01:41:32,465 TRACE mpp.basketproject.repository.db.MatchDBRepository 95 update - Exit
+22 Mar 2022 01:41:32,465 TRACE mpp.basketproject.repository.db.TicketDBRepository 37 add - Enter
+22 Mar 2022 01:41:32,465 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:41:32,466 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:41:32,466 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:41:32,466 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:41:32,466 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:41:32,467 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:41:32,473 INFO  mpp.basketproject.repository.db.TicketDBRepository 49 add - 1 rows affected
+22 Mar 2022 01:41:32,473 TRACE mpp.basketproject.repository.db.TicketDBRepository 55 add - Exit
+22 Mar 2022 01:41:32,473 TRACE mpp.basketproject.repository.db.MatchDBRepository 163 getAllOrderedByAvailableSeats - Enter
+22 Mar 2022 01:41:32,473 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:41:32,473 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:41:32,474 TRACE mpp.basketproject.repository.db.MatchDBRepository 189 getAllOrderedByAvailableSeats - Exit
+22 Mar 2022 01:41:34,229 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:41:34,229 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:41:34,229 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:41:34,230 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:41:40,220 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+22 Mar 2022 01:41:40,221 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:41:40,221 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:41:40,222 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+22 Mar 2022 01:41:40,298 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:41:40,299 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:41:40,299 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:41:40,300 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 01:42:14,328 TRACE mpp.basketproject.repository.db.MatchDBRepository 163 getAllOrderedByAvailableSeats - Enter
+22 Mar 2022 01:42:14,328 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:42:14,328 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:42:14,329 TRACE mpp.basketproject.repository.db.MatchDBRepository 189 getAllOrderedByAvailableSeats - Exit
+22 Mar 2022 01:48:55,150 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:48:55,154 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:48:55,156 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:49:25,716 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:49:25,722 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:49:25,725 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:49:59,156 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:49:59,162 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:49:59,164 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:50:56,995 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:50:57,004 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:50:57,007 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:51:09,269 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:51:09,274 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:51:09,276 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 01:51:18,201 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+22 Mar 2022 01:51:18,202 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:51:18,202 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:51:18,202 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:51:18,203 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:51:18,203 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:51:18,526 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:51:18,529 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+22 Mar 2022 01:51:18,947 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 01:51:18,947 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 01:51:18,947 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 01:51:18,948 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 01:51:18,948 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 01:51:18,948 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 01:51:18,950 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 01:51:18,964 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 10:18:11,344 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 10:18:11,352 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 10:18:11,357 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 10:18:30,886 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+22 Mar 2022 10:18:30,887 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:18:30,888 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 10:18:30,892 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 10:18:30,893 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 10:18:30,893 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 10:18:31,128 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:18:31,131 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+22 Mar 2022 10:18:31,534 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 10:18:31,534 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:18:31,535 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 10:18:31,535 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 10:18:31,536 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 10:18:31,536 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 10:18:31,537 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:18:31,558 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 10:18:34,951 TRACE mpp.basketproject.repository.db.MatchDBRepository 163 getAllOrderedByAvailableSeats - Enter
+22 Mar 2022 10:18:34,951 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:18:34,952 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:18:34,953 TRACE mpp.basketproject.repository.db.MatchDBRepository 189 getAllOrderedByAvailableSeats - Exit
+22 Mar 2022 10:20:37,572 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 10:20:37,582 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 10:20:37,586 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 10:20:42,378 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+22 Mar 2022 10:20:42,379 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:20:42,379 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 10:20:42,379 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 10:20:42,380 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 10:20:42,380 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 10:20:42,578 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:20:42,582 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+22 Mar 2022 10:20:43,001 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 10:20:43,002 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:20:43,003 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 10:20:43,003 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 10:20:43,004 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 10:20:43,004 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 10:20:43,006 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:20:43,024 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 10:20:44,778 TRACE mpp.basketproject.repository.db.MatchDBRepository 163 getAllOrderedByAvailableSeats - Enter
+22 Mar 2022 10:20:44,778 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:20:44,779 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:20:44,780 TRACE mpp.basketproject.repository.db.MatchDBRepository 189 getAllOrderedByAvailableSeats - Exit
+22 Mar 2022 10:20:45,619 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 10:20:45,619 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:20:45,619 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:20:45,621 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 10:20:58,289 TRACE mpp.basketproject.repository.db.MatchDBRepository 100 find - Enter
+22 Mar 2022 10:20:58,289 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:20:58,289 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:20:58,291 TRACE mpp.basketproject.repository.db.MatchDBRepository 125 find - Exit
+22 Mar 2022 10:20:58,291 TRACE mpp.basketproject.repository.db.UserDBRepository 87 find - Enter
+22 Mar 2022 10:20:58,292 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:20:58,292 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:20:58,293 TRACE mpp.basketproject.repository.db.UserDBRepository 106 find - Exit
+22 Mar 2022 10:22:58,549 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 10:22:58,555 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 10:22:58,557 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 10:23:01,650 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+22 Mar 2022 10:23:01,650 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:23:01,651 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 10:23:01,651 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 10:23:01,651 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 10:23:01,651 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 10:23:01,821 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:23:01,824 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+22 Mar 2022 10:23:02,209 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 10:23:02,209 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:23:02,210 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 10:23:02,210 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 10:23:02,210 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 10:23:02,210 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 10:23:02,212 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:23:02,227 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 10:23:34,819 TRACE mpp.basketproject.repository.db.MatchDBRepository 33 add - Enter
+22 Mar 2022 10:23:34,819 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:23:34,819 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:23:34,826 INFO  mpp.basketproject.repository.db.MatchDBRepository 46 add - 1 rows affected
+22 Mar 2022 10:23:34,826 TRACE mpp.basketproject.repository.db.MatchDBRepository 52 add - Exit
+22 Mar 2022 10:23:34,827 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 10:23:34,827 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:23:34,827 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:23:34,828 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 10:23:47,750 TRACE mpp.basketproject.repository.db.MatchDBRepository 163 getAllOrderedByAvailableSeats - Enter
+22 Mar 2022 10:23:47,751 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:23:47,751 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:23:47,752 TRACE mpp.basketproject.repository.db.MatchDBRepository 189 getAllOrderedByAvailableSeats - Exit
+22 Mar 2022 10:27:28,923 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 10:27:28,929 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 10:27:28,931 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 10:27:33,948 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+22 Mar 2022 10:27:33,948 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:27:33,948 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 10:27:33,949 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 10:27:33,949 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 10:27:33,950 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 10:27:34,117 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:27:34,121 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+22 Mar 2022 10:27:34,549 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 10:27:34,550 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:27:34,551 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 10:27:34,551 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 10:27:34,552 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 10:27:34,552 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 10:27:34,554 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:27:34,570 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 10:28:42,545 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 10:28:42,551 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 10:28:42,553 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 10:28:45,547 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+22 Mar 2022 10:28:45,548 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:28:45,548 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 10:28:45,548 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 10:28:45,548 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 10:28:45,549 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 10:28:45,710 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:28:45,714 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+22 Mar 2022 10:28:46,121 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 10:28:46,121 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:28:46,122 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 10:28:46,122 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 10:28:46,122 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 10:28:46,123 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 10:28:46,124 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:28:46,137 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 10:28:53,191 TRACE mpp.basketproject.repository.db.MatchDBRepository 100 find - Enter
+22 Mar 2022 10:28:53,192 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:28:53,192 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:28:53,193 TRACE mpp.basketproject.repository.db.MatchDBRepository 125 find - Exit
+22 Mar 2022 10:28:53,193 TRACE mpp.basketproject.repository.db.UserDBRepository 87 find - Enter
+22 Mar 2022 10:28:53,193 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:28:53,194 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:28:53,195 TRACE mpp.basketproject.repository.db.UserDBRepository 106 find - Exit
+22 Mar 2022 10:28:53,196 TRACE mpp.basketproject.repository.db.MatchDBRepository 75 update - Enter
+22 Mar 2022 10:28:53,196 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:28:53,197 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:28:53,201 INFO  mpp.basketproject.repository.db.MatchDBRepository 89 update - 1 rows affected
+22 Mar 2022 10:28:53,202 TRACE mpp.basketproject.repository.db.MatchDBRepository 95 update - Exit
+22 Mar 2022 10:28:53,202 TRACE mpp.basketproject.repository.db.TicketDBRepository 37 add - Enter
+22 Mar 2022 10:28:53,202 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:28:53,202 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 10:28:53,203 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 10:28:53,203 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 10:28:53,203 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 10:28:53,204 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:28:53,209 INFO  mpp.basketproject.repository.db.TicketDBRepository 49 add - 1 rows affected
+22 Mar 2022 10:28:53,209 TRACE mpp.basketproject.repository.db.TicketDBRepository 55 add - Exit
+22 Mar 2022 10:28:53,209 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 10:28:53,209 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:28:53,209 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:28:53,210 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 10:28:57,744 TRACE mpp.basketproject.repository.db.MatchDBRepository 100 find - Enter
+22 Mar 2022 10:28:57,744 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:28:57,744 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:28:57,745 TRACE mpp.basketproject.repository.db.MatchDBRepository 125 find - Exit
+22 Mar 2022 10:28:57,746 TRACE mpp.basketproject.repository.db.UserDBRepository 87 find - Enter
+22 Mar 2022 10:28:57,746 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:28:57,746 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:28:57,747 TRACE mpp.basketproject.repository.db.UserDBRepository 106 find - Exit
+22 Mar 2022 10:28:57,747 TRACE mpp.basketproject.repository.db.MatchDBRepository 75 update - Enter
+22 Mar 2022 10:28:57,747 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:28:57,747 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:28:57,752 INFO  mpp.basketproject.repository.db.MatchDBRepository 89 update - 1 rows affected
+22 Mar 2022 10:28:57,752 TRACE mpp.basketproject.repository.db.MatchDBRepository 95 update - Exit
+22 Mar 2022 10:28:57,752 TRACE mpp.basketproject.repository.db.TicketDBRepository 37 add - Enter
+22 Mar 2022 10:28:57,752 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:28:57,753 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:28:57,757 INFO  mpp.basketproject.repository.db.TicketDBRepository 49 add - 1 rows affected
+22 Mar 2022 10:28:57,757 TRACE mpp.basketproject.repository.db.TicketDBRepository 55 add - Exit
+22 Mar 2022 10:28:57,757 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 10:28:57,757 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:28:57,757 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:28:57,759 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 10:28:59,592 TRACE mpp.basketproject.repository.db.MatchDBRepository 100 find - Enter
+22 Mar 2022 10:28:59,592 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:28:59,592 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:28:59,593 TRACE mpp.basketproject.repository.db.MatchDBRepository 125 find - Exit
+22 Mar 2022 10:28:59,593 TRACE mpp.basketproject.repository.db.UserDBRepository 87 find - Enter
+22 Mar 2022 10:28:59,594 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:28:59,594 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:28:59,594 TRACE mpp.basketproject.repository.db.UserDBRepository 106 find - Exit
+22 Mar 2022 10:34:04,411 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 10:34:04,417 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 10:34:04,419 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+22 Mar 2022 10:34:08,054 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+22 Mar 2022 10:34:08,055 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:34:08,055 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 10:34:08,055 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 10:34:08,056 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 10:34:08,057 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 10:34:08,246 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:34:08,250 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+22 Mar 2022 10:34:08,632 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 10:34:08,632 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:34:08,633 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 10:34:08,633 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 10:34:08,634 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 10:34:08,634 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 10:34:08,636 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:34:08,656 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 10:34:13,015 TRACE mpp.basketproject.repository.db.MatchDBRepository 163 getAllOrderedByAvailableSeats - Enter
+22 Mar 2022 10:34:13,016 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:34:13,016 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:34:13,017 TRACE mpp.basketproject.repository.db.MatchDBRepository 189 getAllOrderedByAvailableSeats - Exit
+22 Mar 2022 10:34:23,605 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 10:34:23,606 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:34:23,607 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:34:23,608 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 10:34:23,999 TRACE mpp.basketproject.repository.db.MatchDBRepository 163 getAllOrderedByAvailableSeats - Enter
+22 Mar 2022 10:34:23,999 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:34:24,000 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:34:24,001 TRACE mpp.basketproject.repository.db.MatchDBRepository 189 getAllOrderedByAvailableSeats - Exit
+22 Mar 2022 10:34:29,013 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 10:34:29,014 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:34:29,014 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:34:29,015 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+22 Mar 2022 10:34:40,831 TRACE mpp.basketproject.repository.db.MatchDBRepository 100 find - Enter
+22 Mar 2022 10:34:40,831 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:34:40,831 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:34:40,833 TRACE mpp.basketproject.repository.db.MatchDBRepository 125 find - Exit
+22 Mar 2022 10:34:40,833 TRACE mpp.basketproject.repository.db.UserDBRepository 87 find - Enter
+22 Mar 2022 10:34:40,833 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:34:40,834 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:34:40,834 TRACE mpp.basketproject.repository.db.UserDBRepository 106 find - Exit
+22 Mar 2022 10:34:40,835 TRACE mpp.basketproject.repository.db.MatchDBRepository 75 update - Enter
+22 Mar 2022 10:34:40,835 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:34:40,835 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:34:40,840 INFO  mpp.basketproject.repository.db.MatchDBRepository 89 update - 1 rows affected
+22 Mar 2022 10:34:40,840 TRACE mpp.basketproject.repository.db.MatchDBRepository 95 update - Exit
+22 Mar 2022 10:34:40,841 TRACE mpp.basketproject.repository.db.TicketDBRepository 37 add - Enter
+22 Mar 2022 10:34:40,841 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:34:40,841 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+22 Mar 2022 10:34:40,842 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+22 Mar 2022 10:34:40,842 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+22 Mar 2022 10:34:40,842 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+22 Mar 2022 10:34:40,843 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:34:40,847 INFO  mpp.basketproject.repository.db.TicketDBRepository 49 add - 1 rows affected
+22 Mar 2022 10:34:40,848 TRACE mpp.basketproject.repository.db.TicketDBRepository 55 add - Exit
+22 Mar 2022 10:34:40,848 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+22 Mar 2022 10:34:40,848 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+22 Mar 2022 10:34:40,848 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+22 Mar 2022 10:34:40,849 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+02 Apr 2022 16:53:34,042 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+02 Apr 2022 16:53:34,052 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+02 Apr 2022 16:53:34,057 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db} 
+02 Apr 2022 16:53:38,479 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+02 Apr 2022 16:53:38,480 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+02 Apr 2022 16:53:38,480 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+02 Apr 2022 16:53:38,481 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect 1\database\basketball.db
+02 Apr 2022 16:53:38,481 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+02 Apr 2022 16:53:38,482 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+02 Apr 2022 16:53:38,515 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+02 Apr 2022 16:55:50,341 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+02 Apr 2022 16:55:50,351 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+02 Apr 2022 16:55:50,354 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+02 Apr 2022 16:55:53,952 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+02 Apr 2022 16:55:53,953 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+02 Apr 2022 16:55:53,953 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+02 Apr 2022 16:55:53,953 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+02 Apr 2022 16:55:53,954 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+02 Apr 2022 16:55:53,954 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+02 Apr 2022 16:55:54,118 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+02 Apr 2022 16:55:54,122 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+02 Apr 2022 16:55:54,556 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+02 Apr 2022 16:55:54,556 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+02 Apr 2022 16:55:54,557 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+02 Apr 2022 16:55:54,557 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+02 Apr 2022 16:55:54,558 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+02 Apr 2022 16:55:54,559 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+02 Apr 2022 16:55:54,561 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+02 Apr 2022 16:55:54,579 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+02 Apr 2022 23:57:37,875 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+02 Apr 2022 23:57:37,886 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+02 Apr 2022 23:57:37,890 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+02 Apr 2022 23:57:43,732 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+02 Apr 2022 23:57:43,733 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+02 Apr 2022 23:57:43,733 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+02 Apr 2022 23:57:43,734 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+02 Apr 2022 23:57:43,734 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+02 Apr 2022 23:57:43,735 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+02 Apr 2022 23:57:43,992 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+02 Apr 2022 23:57:43,996 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+02 Apr 2022 23:57:44,420 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+02 Apr 2022 23:57:44,420 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+02 Apr 2022 23:57:44,420 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+02 Apr 2022 23:57:44,420 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+02 Apr 2022 23:57:44,421 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+02 Apr 2022 23:57:44,421 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+02 Apr 2022 23:57:44,423 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+02 Apr 2022 23:57:44,437 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+04 Apr 2022 15:49:02,652 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 15:49:02,659 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 15:49:02,662 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 15:49:08,582 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+04 Apr 2022 15:49:08,582 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+04 Apr 2022 15:49:08,582 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+04 Apr 2022 15:49:08,583 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+04 Apr 2022 15:49:08,583 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+04 Apr 2022 15:49:08,583 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+04 Apr 2022 15:49:08,885 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+04 Apr 2022 15:49:08,893 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+04 Apr 2022 15:49:09,347 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+04 Apr 2022 15:49:09,347 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+04 Apr 2022 15:49:09,348 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+04 Apr 2022 15:49:09,348 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+04 Apr 2022 15:49:09,349 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+04 Apr 2022 15:49:09,349 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+04 Apr 2022 15:49:09,351 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+04 Apr 2022 15:49:09,379 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+04 Apr 2022 15:53:44,194 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 15:53:44,201 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 15:53:44,203 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 15:53:48,388 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+04 Apr 2022 15:53:48,388 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+04 Apr 2022 15:53:48,389 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+04 Apr 2022 15:53:48,389 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+04 Apr 2022 15:53:48,390 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+04 Apr 2022 15:53:48,391 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+04 Apr 2022 15:53:48,599 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+04 Apr 2022 15:53:48,602 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+04 Apr 2022 15:53:49,075 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+04 Apr 2022 15:53:49,075 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+04 Apr 2022 15:53:49,076 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+04 Apr 2022 15:53:49,076 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+04 Apr 2022 15:53:49,077 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+04 Apr 2022 15:53:49,077 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+04 Apr 2022 15:53:49,078 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+04 Apr 2022 15:53:49,098 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+04 Apr 2022 16:05:26,438 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 16:05:26,446 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 16:05:26,449 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 16:05:30,935 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+04 Apr 2022 16:05:30,936 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+04 Apr 2022 16:05:30,936 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+04 Apr 2022 16:05:30,936 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+04 Apr 2022 16:05:30,936 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+04 Apr 2022 16:05:30,937 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+04 Apr 2022 16:05:31,344 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+04 Apr 2022 16:05:31,351 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+04 Apr 2022 16:05:31,836 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+04 Apr 2022 16:05:31,837 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+04 Apr 2022 16:05:31,838 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+04 Apr 2022 16:05:31,838 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+04 Apr 2022 16:05:31,839 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+04 Apr 2022 16:05:31,839 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+04 Apr 2022 16:05:31,841 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+04 Apr 2022 16:05:31,865 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+04 Apr 2022 16:05:34,797 TRACE mpp.basketproject.repository.db.MatchDBRepository 163 getAllOrderedByAvailableSeats - Enter
+04 Apr 2022 16:05:34,798 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+04 Apr 2022 16:05:34,798 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+04 Apr 2022 16:05:34,799 TRACE mpp.basketproject.repository.db.MatchDBRepository 189 getAllOrderedByAvailableSeats - Exit
+04 Apr 2022 16:06:41,203 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 16:06:41,211 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 16:06:41,214 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 16:06:46,034 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+04 Apr 2022 16:06:46,035 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+04 Apr 2022 16:06:46,035 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+04 Apr 2022 16:06:46,035 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+04 Apr 2022 16:06:46,036 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+04 Apr 2022 16:06:46,036 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+04 Apr 2022 16:06:46,199 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+04 Apr 2022 16:06:46,203 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+04 Apr 2022 16:06:46,651 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+04 Apr 2022 16:06:46,652 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+04 Apr 2022 16:06:46,653 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+04 Apr 2022 16:06:46,653 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+04 Apr 2022 16:06:46,654 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+04 Apr 2022 16:06:46,654 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+04 Apr 2022 16:06:46,656 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+04 Apr 2022 16:06:46,676 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+04 Apr 2022 16:06:48,503 TRACE mpp.basketproject.repository.db.MatchDBRepository 163 getAllOrderedByAvailableSeats - Enter
+04 Apr 2022 16:06:48,504 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+04 Apr 2022 16:06:48,504 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+04 Apr 2022 16:06:48,505 TRACE mpp.basketproject.repository.db.MatchDBRepository 189 getAllOrderedByAvailableSeats - Exit
+04 Apr 2022 16:06:49,059 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+04 Apr 2022 16:06:49,060 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+04 Apr 2022 16:06:49,060 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+04 Apr 2022 16:06:49,061 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+04 Apr 2022 16:11:22,804 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 16:11:22,812 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 16:11:22,815 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 16:11:27,160 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+04 Apr 2022 16:11:27,160 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+04 Apr 2022 16:11:27,160 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+04 Apr 2022 16:11:27,161 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+04 Apr 2022 16:11:27,161 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+04 Apr 2022 16:11:27,161 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+04 Apr 2022 16:11:27,387 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+04 Apr 2022 16:11:27,391 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+04 Apr 2022 16:11:27,835 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+04 Apr 2022 16:11:27,835 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+04 Apr 2022 16:11:27,836 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+04 Apr 2022 16:11:27,836 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+04 Apr 2022 16:11:27,837 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+04 Apr 2022 16:11:27,838 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+04 Apr 2022 16:11:27,840 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+04 Apr 2022 16:11:27,864 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+04 Apr 2022 16:14:45,713 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 16:14:45,721 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 16:14:45,724 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 16:14:49,918 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+04 Apr 2022 16:14:49,918 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+04 Apr 2022 16:14:49,918 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+04 Apr 2022 16:14:49,918 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+04 Apr 2022 16:14:49,919 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+04 Apr 2022 16:14:49,919 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+04 Apr 2022 16:14:50,103 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+04 Apr 2022 16:14:50,107 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+04 Apr 2022 16:14:50,678 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+04 Apr 2022 16:14:50,679 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+04 Apr 2022 16:14:50,680 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+04 Apr 2022 16:14:50,680 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+04 Apr 2022 16:14:50,681 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+04 Apr 2022 16:14:50,681 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+04 Apr 2022 16:14:50,683 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+04 Apr 2022 16:14:50,701 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+04 Apr 2022 16:15:09,670 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 16:15:09,675 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 16:15:09,677 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+04 Apr 2022 16:15:13,940 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+04 Apr 2022 16:15:13,941 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+04 Apr 2022 16:15:13,941 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+04 Apr 2022 16:15:13,942 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+04 Apr 2022 16:15:13,942 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+04 Apr 2022 16:15:13,942 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+04 Apr 2022 16:15:14,116 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+04 Apr 2022 16:15:14,120 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+04 Apr 2022 16:15:14,592 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+04 Apr 2022 16:15:14,593 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+04 Apr 2022 16:15:14,593 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+04 Apr 2022 16:15:14,594 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+04 Apr 2022 16:15:14,594 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+04 Apr 2022 16:15:14,594 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+04 Apr 2022 16:15:14,596 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+04 Apr 2022 16:15:14,615 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+08 Apr 2022 21:34:25,829 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 21:34:25,835 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 21:34:25,838 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 21:34:30,226 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+08 Apr 2022 21:34:30,227 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+08 Apr 2022 21:34:30,227 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2022 21:34:30,227 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+08 Apr 2022 21:34:30,227 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+08 Apr 2022 21:34:30,228 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+08 Apr 2022 21:34:30,482 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+08 Apr 2022 21:34:30,486 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+08 Apr 2022 21:34:30,934 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+08 Apr 2022 21:34:30,934 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+08 Apr 2022 21:34:30,934 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2022 21:34:30,935 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+08 Apr 2022 21:34:30,935 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+08 Apr 2022 21:34:30,936 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+08 Apr 2022 21:34:30,937 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+08 Apr 2022 21:37:07,470 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 21:37:07,482 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 21:37:07,487 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 21:37:11,500 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+08 Apr 2022 21:37:11,500 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+08 Apr 2022 21:37:11,500 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2022 21:37:11,501 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+08 Apr 2022 21:37:11,501 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+08 Apr 2022 21:37:11,502 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+08 Apr 2022 21:37:11,667 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+08 Apr 2022 21:37:11,671 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+08 Apr 2022 21:37:12,274 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+08 Apr 2022 21:37:12,274 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+08 Apr 2022 21:37:12,275 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2022 21:37:12,275 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+08 Apr 2022 21:37:12,276 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+08 Apr 2022 21:37:12,276 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+08 Apr 2022 21:37:12,278 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+08 Apr 2022 21:37:54,849 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 21:37:54,855 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 21:37:54,857 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 21:37:58,032 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+08 Apr 2022 21:37:58,032 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+08 Apr 2022 21:37:58,032 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2022 21:37:58,033 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+08 Apr 2022 21:37:58,033 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+08 Apr 2022 21:37:58,034 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+08 Apr 2022 21:37:58,172 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+08 Apr 2022 21:37:58,176 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+08 Apr 2022 21:37:58,728 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+08 Apr 2022 21:37:58,729 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+08 Apr 2022 21:37:58,729 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2022 21:37:58,730 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+08 Apr 2022 21:37:58,730 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+08 Apr 2022 21:37:58,730 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+08 Apr 2022 21:37:58,732 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+08 Apr 2022 21:37:58,751 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
+08 Apr 2022 21:57:02,850 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 21:57:02,857 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 21:57:02,860 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 22:02:28,912 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 22:02:28,922 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 22:02:28,926 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 22:02:48,928 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 22:02:48,933 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 22:02:48,936 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 22:03:17,577 INFO  mpp.basketproject.repository.db.UserDBRepository 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 22:03:17,582 INFO  mpp.basketproject.repository.db.MatchDBRepository 26 <init> - Initializing MatchDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 22:03:17,584 INFO  mpp.basketproject.repository.db.TicketDBRepository 30 <init> - Initializing TicketDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db} 
+08 Apr 2022 22:03:28,706 TRACE mpp.basketproject.repository.db.UserDBRepository 138 findByUsername - Enter
+08 Apr 2022 22:03:28,707 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+08 Apr 2022 22:03:28,707 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2022 22:03:28,707 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+08 Apr 2022 22:03:28,708 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+08 Apr 2022 22:03:28,708 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+08 Apr 2022 22:03:28,921 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+08 Apr 2022 22:03:28,924 TRACE mpp.basketproject.repository.db.UserDBRepository 157 findByUsername - Exit
+08 Apr 2022 22:03:29,400 TRACE mpp.basketproject.repository.db.MatchDBRepository 131 getAll - Enter
+08 Apr 2022 22:03:29,400 TRACE mpp.basketproject.repository.db.JdbcUtils 50 getConnection - Enter
+08 Apr 2022 22:03:29,401 TRACE mpp.basketproject.repository.db.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2022 22:03:29,401 INFO  mpp.basketproject.repository.db.JdbcUtils 31 getNewConnection - connecting to database jdbc:sqlite:C:\Users\spike\Desktop\Facultate\MPP\Laborator\Tema proiect\database\basketball.db
+08 Apr 2022 22:03:29,401 INFO  mpp.basketproject.repository.db.JdbcUtils 32 getNewConnection - user null
+08 Apr 2022 22:03:29,402 INFO  mpp.basketproject.repository.db.JdbcUtils 33 getNewConnection - password null
+08 Apr 2022 22:03:29,403 TRACE mpp.basketproject.repository.db.JdbcUtils 61 getConnection - Exit
+08 Apr 2022 22:03:29,422 TRACE mpp.basketproject.repository.db.MatchDBRepository 157 getAll - Exit
